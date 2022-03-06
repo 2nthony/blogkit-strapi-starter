@@ -1,11 +1,11 @@
 import { defineConfig } from "blogkit";
-import { request } from "blogkit-yuque";
+import { request } from "blogkit-strapi";
 import { theme } from "blogkit-theme-minimal";
 
 export default defineConfig({
   siteConfig: {
-    title: "Blogkit Yuque",
-    author: "2nthony",
+    title: "Blogkit Strapi",
+    author: "colmugx",
   },
   theme,
   request,
