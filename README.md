@@ -1,15 +1,24 @@
-# [Blogkit Yuque Starter](https://github.com/2nthony/blogkit-yuque-starter)
+# [Blogkit Strapi Starter](https://github.com/2nthony/blogkit-strapi-starter)
 
 Starter template for [blogkit](https://github.com/2nthony/blogkit).
-
-![](https://cdn.jsdelivr.net/gh/2nthony/statics@main/uPic/Q2H5b1XW6y6i.png)
 
 ## Getting started
 
 ### 获取环境变量
 
-- `YUQUE_TOKEN` 在[这里](https://www.yuque.com/settings/tokens)生成 token ，权限为读取仓库和文档。
-- `YUQUE_NAMESPACE` 在[这里](https://www.yuque.com/yuque/developer/repo)可以查看如何获取仓库路径。
+- `STRAPI_API_URL` strapi 的公开抵制。 (Default：`http://localhost:1337`)
+- `STRAPI_CONTENT_TYPE` 想被获取的 `Content-Type` - `Collection Type`。 (Default: `articles`)
+
+配置可填写到 `next.config.js`
+
+```js
+const nextConfig = {
+  env: {
+    STRAPI_API_URL: "http://localhost:1337",
+    STRAPI_CONTENT_TYPE: "articles",
+  },
+};
+```
 
 ## 配置
 
