@@ -69,7 +69,30 @@ Now you see your post list and post content.
 
 ## Configuration
 
-1. Update the site title in `blogkit.config.js` .
+#### Update the site title in `blogkit.config.js`
+
+```js
+export default defineConfig({
+  siteConfig: {
+    title: "your blog title",
+  },
+});
+```
+
+#### Use the difference fields in collection type
+
+```js
+export default defineConfig({
+  // ...
+  request: request({
+    attributes: {
+      title: "your title field",
+      content: "your content field",
+      excerpt: "your excerpt field",
+    },
+  }),
+});
+```
 
 ## Deply your own
 
@@ -79,4 +102,4 @@ Deply the blogkit strapi starter using Vercel:
 
 ## Author
 
-[@colmugx](https://github.com/colmugx)
+[colmugx](https://github.com/colmugx)
