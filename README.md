@@ -61,6 +61,12 @@ Now you see your post list and post content.
 - `STRAPI_API_URL` strapi address. (Default: `http://localhost:1337`)
 - `STRAPI_CONTENT_TYPE` collection API ID(Plural) of Content-Type Builder. (Default: `articles`)
 
+### Collection type fields
+
+- `title` - `Text`
+- `content` - `Rich text`
+- `excerpt` - `Text`
+
 ## Configuration
 
 1. Update the site title in `blogkit.config.js` .
