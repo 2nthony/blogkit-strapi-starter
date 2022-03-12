@@ -8,5 +8,5 @@ export default defineConfig({
     author: "colmugx",
   },
   theme,
-  request,
+  request: request(),
 });

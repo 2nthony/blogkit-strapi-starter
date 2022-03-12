@@ -2,30 +2,23 @@
 
 Starter template for [blogkit](https://github.com/2nthony/blogkit).
 
+![zNBvgZ8fVuRU](https://cdn.jsdelivr.net/gh/2nthony/statics@main/uPic/zNBvgZ8fVuRU.png)
+
 ## Getting started
 
-### 获取环境变量
+### Environment variables
 
-- `STRAPI_API_URL` strapi 的公开抵制。 (Default：`http://localhost:1337`)
-- `STRAPI_CONTENT_TYPE` 想被获取的 `Content-Type` - `Collection Type`。 (Default: `articles`)
+- `STRAPI_API_URL` strapi address. (Default：`http://localhost:1337`)
+- `STRAPI_CONTENT_TYPE` collection API ID(Plural) of Content-Type Builder. (Default: `articles`)
 
-配置可填写到 `next.config.js`
+## Configuration
 
-```js
-const nextConfig = {
-  env: {
-    STRAPI_API_URL: "http://localhost:1337",
-    STRAPI_CONTENT_TYPE: "articles",
-  },
-};
-```
+1. Update the site title in `blogkit.config.ts` .
 
-## 配置
+## Deply your own
 
-1. 更新 `blogkit.config.ts` 中的 title 值。
+Deply the blogkit strapi starter using Vercel :
 
-## 部署
-
-部署到 Vercel :
+<!-- TODO -->
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F2nthony%2Fblogkit-yuque-starter&env=YUQUE_TOKEN,YUQUE_NAMESPACE)
