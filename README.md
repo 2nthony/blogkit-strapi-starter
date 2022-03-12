@@ -19,6 +19,4 @@ Starter template for [blogkit](https://github.com/2nthony/blogkit).
 
 Deply the blogkit strapi starter using Vercel :
 
-<!-- TODO -->
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F2nthony%2Fblogkit-yuque-starter&env=YUQUE_TOKEN,YUQUE_NAMESPACE)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F2nthony%2Fblogkit-strapi-starter&env=STRAPI_API_URL,STRAPI_CONTENT_TYPE)
